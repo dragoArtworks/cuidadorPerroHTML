@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="recursos/funciones.js" type="text/javascript"></script>
+</head>
+<!-- 
+/**
+ *
+ * @author Daniel esteban rivera gomez
+ */
+//programacion II
+-->
+<body class="pagina">
+   
+    <form action="perro" method="post"
+    onsubmit="return ValidarForma(this)">
+       <div class="contenedor">
+            <table width="600" id="enfasisColumna">
+                <img src="imagenes/1_-ibuSKYP9s_MLISSK4mfcw.png" id="imagen">
+                <tr>
+                    <h1 class="titulo">cheems pet</h1>
+                    <h3 class="subtitulo">los mejores paseos de tu amigo canino</h3>
+                </tr>
+                <tr>
+                    <td class="columna" height="60">
+                        ¿cuantos perros grandes desea que paseemos?
+                    </td>
+                    <td>
+                        <input type="text" class="default" placeholder="ingresa un valor" name="grande"  >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="columna">
+                        ¿cuantos perros medianos desea que paseemos?
+                    </td>
+                    <td>
+                        <input type="text" class="default" placeholder="ingresa un valor" name="mediano" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="columna">
+                        ¿cuantos perros pequeños desea que paseemos?
+                    </td>
+                    <td>
+                        <input type="text" class="default" placeholder="ingresa un valor" name="pequeno" >
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        
+                    </tr>
+                    <td class="columna" id="horas">
+                        cuantas horas desea que lo(s) paseemos
+                    </td>
+                    <td>
+                        <input type="text" class="default" placeholder="ingresa un valor" name="horas" >
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="enviar" class="button">
+        </div>
+        
+    </form>
+    
+</body>
+</html>
